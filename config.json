@@ -21,19 +21,19 @@
                         "dest": 3001
                     },
                     {
-                        "path": "/2d9a52e5-c17a-426c-b92b-7ff9451a178a",
+                        "path": "/vless",
                         "dest": 3002
                     },
                     {
-                        "path": "/2d9a52e5-c17a-426c-b92b-7ff9451a178a",
+                        "path": "/vmess",
                         "dest": 3003
                     },
                     {
-                        "path": "/2d9a52e5-c17a-426c-b92b-7ff9451a178a",
+                        "path": "/trojan",
                         "dest": 3004
                     },
                     {
-                        "path": "/2d9a52e5-c17a-426c-b92b-7ff9451a178a-shadowsocks",
+                        "path": "/shadowsocks",
                         "dest": 3005
                     }
                 ]
@@ -76,7 +76,7 @@
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/2d9a52e5-c17a-426c-b92b-7ff9451a178a"
+                    "path": "/vless"
                 }
             },
             "sniffing": {
@@ -104,7 +104,7 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/2d9a52e5-c17a-426c-b92b-7ff9451a178a-vmess"
+                    "path": "/vmess"
                 }
             },
             "sniffing": {
@@ -132,7 +132,7 @@
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/2d9a52e5-c17a-426c-b92b-7ff9451a178a-trojan"
+                    "path": "/trojan"
                 }
             },
             "sniffing": {
@@ -161,7 +161,7 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/2d9a52e5-c17a-426c-b92b-7ff9451a178a-shadowsocks"
+                    "path": "/shadowsocks"
                 }
             },
             "sniffing": {
